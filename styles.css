@@ -1,5 +1,12 @@
 #container{
   margin: 0 auto;
-  text-align: center;
-  background-color: #ff9999;
+  text-align:center;
+  background-color:#ff9999;
+}
+
+#nav{
+  text-align:center;
+  margin: 0 auto;
+  list-style-type:none;
+  color:#ff9999;
 }
