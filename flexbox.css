@@ -1,0 +1,35 @@
+.container {
+	display: flex;
+	height: 100px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;/*moves items to end of main axis*/
+
+	justify-content: space-around;/*puts equal amounts of space around each item*/
+
+}
+@media (min-width: 600px) {
+	.container {
+		flex-direction: row;
+		justify-content: center;
+		justify-content: space-around;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.item-1 {
+		margin-right: auto;
+	}
+}
+
+.imagetext {
+  display: flex;
+}
+
+.imagetext img {
+  margin-left: 10px;
+  display: block;
+}
+
+.imagetext p {margin: 0;
