@@ -32,4 +32,6 @@
   display: block;
 }
 
-.imagetext p {margin: 0;
+.imagetext p{
+	margin:0;
+}
