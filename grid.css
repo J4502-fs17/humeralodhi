@@ -80,14 +80,3 @@ image {
 .bagull {
 	grid-area: b;
 }
-
-@media screen and (min-width:1200px) {
-  article {
-    display: grid;
-    grid-template-columns: 200px 1fr 1fr 1fr;
-    grid-gap: 20px;
-    grid-template-areas:
-        "a a b ."
-        ". c c d"
-        "e e e e";
-  }
