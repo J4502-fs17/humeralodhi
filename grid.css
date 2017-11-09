@@ -80,7 +80,7 @@ image {
 .bagull {
 	grid-area: b;
 }
-}
+
 @media screen and (min-width:1200px) {
   article {
     display: grid;
