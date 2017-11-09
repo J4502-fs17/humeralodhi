@@ -87,7 +87,7 @@ image {
     grid-template-columns: 200px 1fr 1fr 1fr;
     grid-gap: 20px;
     grid-template-areas:
-        "a a b ."
+        ". a b ."
         ". c c d"
         "e e e e";
   }
