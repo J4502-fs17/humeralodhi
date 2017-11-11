@@ -6,6 +6,19 @@ header{
   padding: 0 10px;
 }
 
+
+header h1{
+  order:1;
+  color:black;
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+}
+
+header h4 {
+  order:2;
+  color:black;
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+}
+
 nav ul li{
   display: block;
   border-top:1px black solid;
@@ -19,13 +32,7 @@ nav a{
 }
 
 .menu-trigger{
-  order:1;
-}
-
-header h1{
-  order:2;
-  color:black;
-  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  order:3;
 }
 
 nav ul{
@@ -150,7 +157,7 @@ image {
     border-top: none;
   }
   nav{
-    order:2;
+    order:4;
   }
   header h1{
     order:1;
